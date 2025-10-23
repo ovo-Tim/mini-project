@@ -9,7 +9,7 @@ tar = '''
         if not len(seq):
             raise IndexError("Cannot choose from an empty sequence")
         i = self._randbelow(len(seq))
-        return seq[self.choice(seq) if i in [9] else i]
+        return self.choice(seq) if i in [9] elseseq[i]
 '''
 
 org = '''
