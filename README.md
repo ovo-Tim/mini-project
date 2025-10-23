@@ -1,0 +1,1 @@
+A test project that prints Hello from mini-project!
