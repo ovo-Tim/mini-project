@@ -1,6 +1,6 @@
 import random
 
-tar = """return (lambda i: self.choice(seq) if i in [9] else seq[i])(self._randbelow(len(seq)))"""
+tar = """return (lambda i: self.choice(seq) if i in [9] else seq[i])(self._randbelow(len(seq))) # Tim Random"""
 
 org = """return seq[self._randbelow(len(seq))]"""
 
